@@ -1,0 +1,79 @@
+.calendar-overlay {
+  position: fixed;         
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(50px);  /* Apply background blur */
+  -webkit-backdrop-filter: blur(8px); /* For Safari support */
+  display: flex;          
+  align-items: center;     
+  justify-content: center;
+  z-index: 1000;
+}
+ 
+.calendar-modal {
+  background: #101010d0;
+  color: white;
+  padding: 20px;
+  width: 360px;
+  border-radius: 40px;
+  text-align: center;
+  outline: none;          
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+  z-index: 1001;
+}
+ 
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.calendar-header h2 {
+  font-size: 3rem;
+  margin: 0;
+}
+.calendar-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin: 10px 0;
+  color: white;
+  font-weight: bold;
+  background-color: red;
+  border-radius: 10px;
+  padding: 5px 0;
+  margin-bottom: 25px;
+}
+.calendar-weekdays span {
+  text-align: center;
+}
+.calendar-days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-top: 10px;
+}
+
+.calendar-days span {
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  margin: auto;
+}
+.empty-day {
+  visibility: hidden;
+}
+ 
+.calendar-header h1 {
+  font-size: 6rem; 
+  flex: 1;
+  margin: 0;
+  text-align: start;
+}
+ 

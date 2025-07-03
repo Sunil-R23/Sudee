@@ -1,0 +1,92 @@
+.backimg {
+    width: 20px;
+    height: 20px;
+    margin-left: 16px;
+}
+
+.leftArrow {
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+}
+
+.rightArrow{
+    width: 20px;
+    height: 20px;
+    margin-left: 16px;
+}
+
+.gamplayad-img {
+    max-width: 80%;
+    height: auto;
+}
+
+.ad-img {
+  max-width: 100%;
+  max-height: 300px;
+  display: block;
+  margin: 0 auto;
+  transition: width 0.2s, height 0.2s;
+}
+
+.profile-image {
+  width: 60px;
+  height: 66px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.jackpot-heading {
+  font-size: clamp(2rem, 10vw, 10rem);
+  line-height: 1.2;
+  font-family: "Garet W05 Bold";
+}
+
+.back-button {
+  width: 20px;
+  height: 20px;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+.gameplay-upload-input {
+  display: none;
+}
+
+.gameplay-upload-label {
+  cursor: pointer;
+}
+
+
+/* Cropper Modal Overlay */
+.cropper-modal-overlay {
+  position: fixed;
+  z-index: 9999;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cropper-modal-content {
+  background: #222;
+  padding: 2rem 1rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 320px;
+  min-height: 400px;
+  max-height: 90vh;
+  overflow-y: auto;
+    /* border: 2px solid red; */
+}
+
+.cropper-modal-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}

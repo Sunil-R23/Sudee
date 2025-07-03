@@ -1,0 +1,26 @@
+.back-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 16px;
+  cursor: pointer;
+}
+
+.arrow-left {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+
+.arrow-right {
+  width: 20px;
+  height: 20px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.withdraw-ad-img {
+  width: 300px;
+  height: 100px;
+  margin-right: 12px;
+}
